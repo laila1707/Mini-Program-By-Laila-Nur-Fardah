@@ -5,10 +5,10 @@ while True :
     harga_barang = float(input("Entrikan harga satuan barangnya : "))
     total_harga += jml_barang * harga_barang
 
-    tambahan_item = input("Apakah ada lagi item barang yang dientrikan atau tidak? [y]/[t] ")
+    tambahan_item = input("Apakah anda ingin mengentrikan item barang atau tidak? [y]/[t] ")
     while tambahan_item != "y" and tambahan_item != "t" :
         karakter_salah.append (tambahan_item)
-        tambahan_item = input("Apakah ada lagi item barang yang dientrikan atau tidak? [y]/[t] ")
+        tambahan_item = input("Apakah anda ingin mengentrikan item barang atau tidak? [y]/[t] ")
 
     if tambahan_item == "t":
         break
